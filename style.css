@@ -3,3 +3,88 @@
     margin: 0;
     padding: 0;
 }
+body{
+    letter-spacing: 2px;
+    line-height: 1;
+    font-family: Helvetica, Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container-premium{
+    max-width: 1250px;
+}
+.header-premium{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.logo-spotify-premium{
+    display: flex;
+    margin: 2rem 0 2rem 6rem;
+}
+.logo-spotify-premium > i{
+    font-size: 2rem;
+    margin-right: 0.2rem;
+}
+.logo-spotify-premium > a{
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+}
+.links-navtop-premium{
+    display: flex;
+    margin: 2rem 2rem 0 9rem;
+}
+.links-navtop-premium > a{
+    font-size: 1rem;
+    color: white;
+    margin: 1rem;
+    font-weight: 700;
+}
+.main-premium{
+    display: flex;
+    flex-direction: column;
+    background-color: #1d75de;
+    color: white;
+    align-items: flex-start;
+}
+.main-premium > h1{
+    margin: 5rem 0 2rem 9rem;
+}
+.main-premium > p{
+    margin: 2rem 0 2rem 9rem;
+}
+.main-premium > p:last-child{
+    margin: 2rem 0 5rem 9rem;
+}
+.main-premium > .btn-wrapper-premium{
+    margin: 2rem 0 2rem 9rem;
+    display: flex;
+}
+.main-premium > .btn-wrapper-premium > button{
+    margin: 0 1rem 0 0;
+    padding: 1rem 4rem;
+    border-radius: 30px;
+    
+}
+.main-premium > .btn-wrapper-premium > button:first-child{
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    background-color: black;
+    opacity: 0.8;
+    
+}
+.main-premium > .btn-wrapper-premium > button:first-child:hover{
+    opacity: 1;
+}
+.main-premium > .btn-wrapper-premium > button:last-child{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+    opacity: 1.4;
+}
