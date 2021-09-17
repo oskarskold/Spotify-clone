@@ -1,90 +1,205 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-body{
-    letter-spacing: 2px;
-    line-height: 1;
-    font-family: Helvetica, Arial, sans-serif;
+body {
+  letter-spacing: 2px;
+  line-height: 1;
+  font-family: Helvetica, Arial, sans-serif;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.container-premium{
-    max-width: 1250px;
+.container-premium {
+  max-width: 1250px;
 }
-.header-premium{
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-    color: white;
+.header-premium {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
 }
-.logo-spotify-premium{
-    display: flex;
-    margin: 2rem 0 2rem 6rem;
+.logo-spotify-premium {
+  display: flex;
+  margin: 2rem 0 2rem 6rem;
 }
-.logo-spotify-premium > i{
-    font-size: 2rem;
-    margin-right: 0.2rem;
+.logo-spotify-premium > i {
+  font-size: 2rem;
+  margin-right: 0.2rem;
 }
-.logo-spotify-premium > a{
-    font-size: 2rem;
-    color: white;
-    font-weight: 700;
+.logo-spotify-premium > a {
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
 }
-.links-navtop-premium{
-    display: flex;
-    margin: 2rem 2rem 0 9rem;
+.links-navtop-premium {
+  display: flex;
+  margin: 2rem 2rem 0 9rem;
 }
-.links-navtop-premium > a{
-    font-size: 1rem;
-    color: white;
-    margin: 1rem;
-    font-weight: 700;
+.links-navtop-premium > a {
+  font-size: 1rem;
+  color: white;
+  margin: 1rem;
+  font-weight: 700;
 }
-.main-premium{
-    display: flex;
-    flex-direction: column;
-    background-color: #1d75de;
-    color: white;
-    align-items: flex-start;
+.main-premium {
+  display: flex;
+  flex-direction: column;
+  background-color: #1d75de;
+  color: white;
+  align-items: flex-start;
 }
-.main-premium > h1{
-    margin: 5rem 0 2rem 9rem;
+.main-premium > h1 {
+  margin: 5rem 0 2rem 9rem;
 }
-.main-premium > p{
-    margin: 2rem 0 2rem 9rem;
+.main-premium > p {
+  margin: 2rem 0 2rem 9rem;
 }
-.main-premium > p:last-child{
-    margin: 2rem 0 5rem 9rem;
+.main-premium > p:last-child {
+  margin: 2rem 0 5rem 9rem;
 }
-.main-premium > .btn-wrapper-premium{
-    margin: 2rem 0 2rem 9rem;
-    display: flex;
+.main-premium > .btn-wrapper-premium {
+  margin: 2rem 0 2rem 9rem;
+  display: flex;
 }
-.main-premium > .btn-wrapper-premium > button{
-    margin: 0 1rem 0 0;
-    padding: 1rem 4rem;
-    border-radius: 30px;
-    
+.main-premium > .btn-wrapper-premium > button {
+  margin: 0 1rem 0 0;
+  padding: 1rem 4rem;
+  border-radius: 30px;
 }
-.main-premium > .btn-wrapper-premium > button:first-child{
-    background-color: transparent;
-    border: none;
-    color: white;
-    text-transform: uppercase;
-    background-color: black;
-    opacity: 0.8;
-    
+.main-premium > .btn-wrapper-premium > button:first-child {
+  background-color: transparent;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  background-color: black;
+  opacity: 0.8;
 }
-.main-premium > .btn-wrapper-premium > button:first-child:hover{
-    opacity: 1;
+.main-premium > .btn-wrapper-premium > button:first-child:hover {
+  opacity: 1;
 }
-.main-premium > .btn-wrapper-premium > button:last-child{
-    background-color: transparent;
-    border: 2px solid white;
-    color: white;
-    text-transform: uppercase;
-    opacity: 1.4;
+.main-premium > .btn-wrapper-premium > button:last-child {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  text-transform: uppercase;
+  opacity: 1.4;
+}
+.main-premium > p > strong {
+  text-decoration: underline;
+}
+.main-premium > p:last-child {
+  font-size: 0.7rem;
+}
+.whyus-premium {
+  text-align: center;
+  margin: 3rem;
+}
+.wrapper-whyus {
+  display: flex;
+  justify-content: space-between;
+}
+.benefits-whyus-premium {
+  display: flex;
+  flex-direction: column;
+}
+.benefits-whyus-premium > i {
+  margin: 2rem 4rem;
+  height: 120px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+  background-color: rgb(219, 219, 219);
+}
+.benefits-whyus-premium > h2 {
+  margin: 1rem;
+  font-size: 1.1rem;
+}
+.benefits-whyus-premium > p {
+  font-size: 0.8rem;
+}
+.offers-premium {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(231, 228, 228);
+}
+.offers-premium h1 {
+  margin: 3rem 0 1rem 0;
+  font-size: 2rem;
+}
+.offers-premium p {
+  font-size: 0.8rem;
+}
+.wrapper-offers-premium {
+  display: flex;
+  margin-top: 2rem;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 3rem;
+  margin: 1rem;
+}
+.cards > a {
+  background-color: #1d75de;
+  color: white;
+  padding: 0.2rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+.cards > p {
+  margin-bottom: 0.4rem;
+}
+.wrapper-footer-premium > h2 {
+  margin: 2rem;
+}
+.cards-footer-premium {
+  background-color: white;
+  margin: 2rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 0;
+  background-color: black;
+}
+.socialmedialinks-footer-premium {
+  display: flex;
+  margin-right: 2rem;
+}
+.socialmedialinks-footer-premium > a {
+  margin: 0.3rem;
+  background-color: grey;
+  border-radius: 999px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1rem;
+  font-weight: 100;
+}
+.links-footer-premium > h4 {
+  color: gray;
+  margin-bottom: 1rem;
+}
+.links-footer-premium > a {
+  color: white;
+  margin: 2rem;
+}
+.logo-spotify-premium > i {
+  color: white;
+  margin-right: 1rem;
+}
+.logo-spotify-premium > h2 {
+  color: white;
 }
